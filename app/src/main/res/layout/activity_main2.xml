@@ -1,0 +1,82 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:gravity="center"
+        android:text="Welkom bij WeerApp"
+        android:textColor="#46AB9F"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="385dp"
+        android:layout_height="172dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Weerdata zal hier verschijnen"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="Enter Stad Naam"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#292727"/>
+
+    <EditText
+        android:id="@+id/etCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:hint="Enter Stad Code (Optional)"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#292727"/>
+
+    <Button
+        android:id="@+id/btnGet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/my_button_color"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:onClick="getWeatherDetails"
+        android:padding="16dp"
+        android:text="Krijg Weer"
+        android:textColor="@color/white" />
+
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/my_button_color"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:padding="16dp"
+        android:text="Log Uit"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

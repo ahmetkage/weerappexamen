@@ -1,0 +1,8 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.weerappexamen" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+    </style>
+
+    <style name="Theme.weerappexamen" parent="Base.Theme.weerappexamen" />
+</resources>

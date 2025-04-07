@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/etGebruikersnaam"
+        android:layout_width="385dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="100dp"
+        android:hint="Gebruikersnaam"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/etWachtwoord"
+        android:layout_width="385dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/etGebruikersnaam"
+        android:layout_marginTop="27dp"
+        android:hint="Wachtwoord"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnRegistreren"
+        android:layout_width="378dp"
+        android:layout_height="58dp"
+        android:layout_below="@id/etWachtwoord"
+        android:layout_marginTop="171dp"
+        android:backgroundTint="@color/my_button_color"
+        android:onClick="registreer"
+        android:padding="10dp"
+        android:text="Registreren"
+        android:textColor="@color/white" />
+</RelativeLayout>
