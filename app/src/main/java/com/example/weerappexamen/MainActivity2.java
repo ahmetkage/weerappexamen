@@ -140,7 +140,7 @@ public class MainActivity2 extends AppCompatActivity {
                 public void onErrorResponse(VolleyError error) {
                     // Toon een foutmelding als er een probleem is met de API-aanroep
                     Log.e("WeatherApp", "Volley Fout: " + error.toString());
-                    Toast.makeText(MainActivity2.this, "Fout bij ophalen weergegevens! Controleer je internetverbinding of stadnaam.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity2.this, "Fout bij ophalen weergegevens! Controleer je stadnaam of internetverbinding.", Toast.LENGTH_SHORT).show();
                 }
             });
 
